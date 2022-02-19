@@ -2,6 +2,7 @@ package qsp;
 
 import java.awt.AWTException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,10 +23,10 @@ public class FlipkartVivo {
      a.sendKeys(Keys.ENTER);
      Thread.sleep(2000);
      driver.findElement(By.xpath("//div[text()='vivo Y20A 2021 (Nebula Blue, 64 GB)']")).click();
-     JavaExecuteScript b = (JavaexecuteScript)driver;
-     
+//     JavascriptExecutor b = (JavascriptExecutor)driver;
+//     b.executeScript(null, args)
      Thread.sleep(2000);
-     driver.findElement(By.xpath("//li[1][@class='col col-6-12']")).click();
+     driver.findElement(By.xpath("//li[@class='col col-6-12']")).click();
 	}
 
 }

@@ -18,8 +18,8 @@ public class TataCliq {
 		Thread.sleep(2000);
 		//driver.findElement(By.xpath("//span[text()='Login/ Register']")).click();
 		Actions ac = new Actions(driver);
-		WebElement Login/Register = driver.findElement(By.xpath("//span[text()='Login/ Register']"));
-		ac.moveToElement(Login/Register).perform();
+//		WebElement Login/Register = driver.findElement(By.xpath("//span[text()='Login/ Register']"));
+//		ac.moveToElement(Login/Register).perform();
 		
 
 	}

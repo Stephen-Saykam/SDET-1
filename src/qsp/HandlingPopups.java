@@ -56,7 +56,7 @@ public class HandlingPopups {
 		
 		//Handling Notification Popups
 		
-		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver1.exe");
 		
 		//Change the browser Settings
 		ChromeOptions co = new ChromeOptions();
