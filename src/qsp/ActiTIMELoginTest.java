@@ -22,6 +22,7 @@ public class ActiTIMELoginTest {
 		String expectedTitle="actiTIME - Login";
 		String actualTitle = driver.getTitle();
 		System.out.println("Actual Title : "+actualTitle);
+		System.out.println("Push  chesthunna");
 		
 		if(actualTitle.equals(expectedTitle))
 		{
